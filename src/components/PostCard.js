@@ -15,12 +15,12 @@ const PostCard = ({
 }) => (
   <Link to={slug} className={`PostCard ${className}`}>
     {featuredImage && (
-      <div className="PostCard--Image relative">
+      <div className="PostCard--Image relative text-darkTheme">
         <Image background src={featuredImage} alt={title} />
       </div>
     )}
     <div className="PostCard--Content">
-      {title && <h3 className="PostCard--Title">{title}</h3>}
+      {title && <h3 className="PostCard--Title shadow-lg">{title}</h3>}
       <div className="PostCard--Category">
         {categories && categories.map(cat => cat.category).join(', ')}
       </div>
