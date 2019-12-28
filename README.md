@@ -32,7 +32,7 @@ An opinionated starter project for creating lightning-fast websites with [Gatsby
 
 - Open the **Identity** tab and hit **Invite Users**
 
-## Show me the CMS!
+## Show me the CMS! yes!
 
 The CMS lives at [\_\_YOUR_SITE_NAME\_\_.netlify.com/admin](https://__YOUR_SITE_NAME__.netlify.com/admin).
 
